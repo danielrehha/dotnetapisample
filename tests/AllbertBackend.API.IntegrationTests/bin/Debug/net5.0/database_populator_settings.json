@@ -1,0 +1,12 @@
+{
+    "ConnectionStrings": {
+        "SqlConnection": "Host=localhost;Port=5432;Username=postgres;Password=postgres;Database=test_database;Trust Server Certificate=true"
+    },
+    "Logging": {
+        "LogLevel": {
+            "Default": "Debug",
+            "System": "Information",
+            "Microsoft": "Information"
+        }
+    }
+}

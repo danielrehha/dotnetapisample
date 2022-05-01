@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/basicpreset/src/allbert_api/tests/AllbertBackend.Domain.UnitTests/AllbertBackend.Domain.UnitTests.csproj": {}
+  },
+  "projects": {
+    "/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/AllbertBackend.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/AllbertBackend.Domain.csproj",
+        "projectName": "AllbertBackend.Domain",
+        "projectPath": "/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/AllbertBackend.Domain.csproj",
+        "packagesPath": "/Users/basicpreset/.nuget/packages/",
+        "outputPath": "/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/basicpreset/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/basicpreset/src/allbert_api/tests/AllbertBackend.Domain.UnitTests/AllbertBackend.Domain.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/basicpreset/src/allbert_api/tests/AllbertBackend.Domain.UnitTests/AllbertBackend.Domain.UnitTests.csproj",
+        "projectName": "AllbertBackend.Domain.UnitTests",
+        "projectPath": "/Users/basicpreset/src/allbert_api/tests/AllbertBackend.Domain.UnitTests/AllbertBackend.Domain.UnitTests.csproj",
+        "packagesPath": "/Users/basicpreset/.nuget/packages/",
+        "outputPath": "/Users/basicpreset/src/allbert_api/tests/AllbertBackend.Domain.UnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/basicpreset/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/AllbertBackend.Domain.csproj": {
+                "projectPath": "/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/AllbertBackend.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

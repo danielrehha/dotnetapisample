@@ -1,0 +1,38 @@
+using AllbertBackend.Application.Contracts.Persistence;
+using AllbertBackend.Application.Contracts.Persistence.Timeslot;
+using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+namespace AllbertBackend.Application.Features.Business.Commands.DeleteService
+{
+    public class DeleteServiceCommandHandler : IRequestHandler<DeleteServiceCommand, DeleteServiceCommandResponse>
+    {
+        private readonly IAppointmentRepository _appointmentRepository;
+        private readonly IServiceRepository _serviceRepository;
+        private readonly IBusinessRepository _businessRepository;
+        public DeleteServiceCommandHandler(IBusinessRepository businessRepository, IServiceRepository serviceRepository, IAppointmentRepository appointmentRepository)
+        {
+            _businessRepository = businessRepository;
+            _serviceRepository = serviceRepository;
+            _appointmentRepository = appointmentRepository;
+        }
+        public async Task<DeleteServiceCommandResponse> Handle(DeleteServiceCommand request, CancellationToken cancellationToken)
+        {
+            var response = new DeleteServiceCommandResponse();
+            var validator = new DeleteServiceCommandValidator(_businessRepository,_serviceRepository);
+            var validationResult = await validator.ValidateAsync(request);
+            validationResult.Resolve(ref response);
+            if(!response.Success)
+            {
+                return response;
+            }
+            await _appointmentRepository.RemoveServiceIdOnAppointments(request.ServiceId);
+            await _serviceRepository.DeleteAsync(request.ServiceId);
+            return response;
+        }
+    }
+}

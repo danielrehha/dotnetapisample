@@ -1,0 +1,12 @@
+/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/bin/Debug/net5.0/AllbertBackend.Domain.deps.json
+/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/bin/Debug/net5.0/AllbertBackend.Domain.dll
+/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/bin/Debug/net5.0/ref/AllbertBackend.Domain.dll
+/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/bin/Debug/net5.0/AllbertBackend.Domain.pdb
+/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/obj/Debug/net5.0/AllbertBackend.Domain.csproj.AssemblyReference.cache
+/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/obj/Debug/net5.0/AllbertBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/obj/Debug/net5.0/AllbertBackend.Domain.AssemblyInfoInputs.cache
+/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/obj/Debug/net5.0/AllbertBackend.Domain.AssemblyInfo.cs
+/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/obj/Debug/net5.0/AllbertBackend.Domain.csproj.CoreCompileInputs.cache
+/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/obj/Debug/net5.0/AllbertBackend.Domain.dll
+/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/obj/Debug/net5.0/ref/AllbertBackend.Domain.dll
+/Users/basicpreset/src/allbert_api/src/Core/AllbertBackend.Domain/obj/Debug/net5.0/AllbertBackend.Domain.pdb

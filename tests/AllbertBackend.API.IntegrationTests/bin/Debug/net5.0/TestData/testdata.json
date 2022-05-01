@@ -1,0 +1,353 @@
+{
+  "business": {
+    "incorrectId": "3fa85f64-5717-4562-b3fc-2c963f66afa2",
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "firebaseUid": "id123id",
+    "info_create": {
+      "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "Test Business",
+      "type": "Test Type",
+      "description": "This is a test business",
+      "country": "Hungary",
+      "countryAlpha2Code": "HU",
+      "county": "Pest",
+      "city": "Majosh�za",
+      "zip": "2339",
+      "streetName": "Kossuth",
+      "streetType": "Utca",
+      "streetNumber": "22",
+      "addressDoorbell": "1",
+      "addressFloor": "1",
+      "addressDescription": "Test Address Description",
+      "locationLong": 0,
+      "locationLat": 0,
+      "contactFirstName": "First",
+      "contactLastName": "Name",
+      "contactPhone": "706136413",
+      "contactPhoneIso": "HU",
+      "contactEmail": "contact@contact.com"
+    },
+    "info_edit": {
+      "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "Test Business_EDITED",
+      "type": "Test Type_EDITED",
+      "description": "This is a test business_EDITED",
+      "country": "Hungary",
+      "countryAlpha2Code": "TS",
+      "county": "Pest",
+      "city": "Majosh�za",
+      "zip": "2339",
+      "streetName": "Kossuth",
+      "streetType": "Utca",
+      "streetNumber": "22",
+      "addressDoorbell": "1",
+      "addressFloor": "1",
+      "addressDescription": "Test Address Description_EDITED",
+      "locationLong": 0,
+      "locationLat": 0,
+      "contactFirstName": "First_EDITED",
+      "contactLastName": "Name_EDITED",
+      "contactPhone": "111111111",
+      "contactPhoneIso": "HU",
+      "contactEmail": "contact@contact_edited.com"
+    },
+    "details_create": {
+      "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "Test Business_EDITED",
+      "type": "Test Type_EDITED",
+      "description": "This is a test business_EDITED"
+    },
+    "details_edit": {
+      "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "Test Business_EDITED",
+      "type": "Test Type_EDITED",
+      "description": "This is a test business_EDITED"
+    },
+    "address_create": {
+      "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "countryName": "Hungary",
+      "countryNativeName": "Magyarország",
+      "countryAlpha2Code": "HU",
+      "cityName": "Majosh�za",
+      "zipCode": "2339",
+      "streetName": "Kossuth",
+      "streetType": "Utca",
+      "streetNumber": "22",
+      "description": "Test Address Description_CREATE",
+      "locationLong": 0,
+      "locationLat": 0
+    },
+    "address_edit": {
+      "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "countryName": "England",
+      "countryNativeName": "England",
+      "countryAlpha2Code": "EN",
+      "cityName": "Majosh�za",
+      "zipCode": "2339",
+      "streetName": "Kossuth",
+      "streetType": "Utca",
+      "streetNumber": "22",
+      "description": "Test Address Description_EDITED",
+      "locationLong": 0,
+      "locationLat": 0
+    },
+    "contact_create": {
+      "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "firstName": "First",
+      "lastName": "Name",
+      "phone": "706136413",
+      "phoneIso": "HU",
+      "email": "contact@contact.com"
+    },
+    "contact_edit": {
+      "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "firstName": "First_EDITED",
+      "lastName": "Name_EDITED",
+      "phone": "111111111",
+      "phoneIso": "HU",
+      "email": "contact@contact_edited.com"
+    },
+    "base": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "firebaseUid": "id123id",
+      "enabled": true,
+      "deleted": false
+    },
+    "subscription_info": {
+      "BusinessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "SubscriptionId": 0,
+      "StartedOn": "2021-09-01T17:00:00",
+      "EndsOn": "2021-09-01T17:00:00",
+      "IsTrial": false
+    }
+  },
+  "employees": {
+    "employee_1": {
+      "incorrectId": "3fa85f64-5717-4562-b3fc-2c963f66afa1",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "info_create": {
+        "employeeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "firstName": "First",
+        "lastName": "Name",
+        "job": "Test job",
+        "description": "This is a test employee",
+        "email": "employee@test.com",
+        "phone": "706136413",
+        "phoneIso": "HU",
+        "color": 0
+      },
+      "info_edit": {
+        "employeeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "firstName": "First_EDITED",
+        "lastName": "Name_EDITED",
+        "job": "Test job_EDITED",
+        "description": "This is a test employee_EDITED",
+        "email": "employee@test_EDITED.com",
+        "phone": "706136413",
+        "phoneIso": "HU",
+        "color": 0
+      },
+      "info_edit_with_one_service": {
+        "employeeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "firstName": "First_EDITED_ONE_SERVICE",
+        "lastName": "Name_EDITED_ONE_SERVICE",
+        "job": "Test job_EDITED_ONE_SERVICE",
+        "description": "This is a test employee_EDITED_ONE_SERVICE",
+        "email": "employee@test_EDITED_ONE_SERVICE.com",
+        "phone": "706136413",
+        "phoneIso": "HU",
+        "color": 0,
+        "services": [
+          {
+            "serviceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "employeeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+          }
+        ]
+      },
+      "info_edit_with_two_service": {
+        "employeeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "firstName": "First_EDITED_TWO_SERVICE",
+        "lastName": "Name_EDITED_TWO_SERVICE",
+        "job": "Test job_EDITED_TWO_SERVICE",
+        "description": "This is a test employee_EDITED_TWO_SERVICE",
+        "email": "employee@test_EDITED_TWO_SERVICE.com",
+        "phone": "706136413",
+        "phoneIso": "HU",
+        "color": 0,
+        "services": [
+          {
+            "serviceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "employeeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+          },
+          {
+            "serviceId": "3fa85f64-5717-4562-b3fc-2c963f66afa5",
+            "employeeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+          }
+        ]
+      },
+      "availableTimeslot": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "startDate": "2021-09-01T09:00:00",
+        "endDate": "2021-09-01T17:00:00",
+        "employeeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+      },
+      "active_appointment": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "startDate": "2021-09-01T09:00:00",
+        "endDate": "2021-09-01T10:00:00",
+        "status": 0,
+        "employeeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "customerId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "serviceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+      },
+      "schedule": {
+        "workday_1_no_pause": {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "employeeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "date": "2021-09-30T00:00:00",
+          "startTime": "2021-09-30T09:00:00",
+          "endTime": "2021-09-30T17:00:00",
+          "pauseList": []
+        },
+        "workday_1_with_pause": {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "employeeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "date": "2021-09-30T00:00:00",
+          "startTime": "2021-09-30T09:00:00",
+          "endTime": "2021-09-30T17:00:00",
+          "pauseList": [
+            {
+              "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+              "workDayId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+              "index": 0,
+              "date": "2021-09-30T00:00:00",
+              "startTime": "2021-09-30T12:00:00",
+              "endTime": "2021-09-30T13:00:00"
+            }
+          ]
+        },
+        "workday_2_no_pause": {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa2",
+          "employeeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "date": "2021-09-23T00:00:00",
+          "startTime": "2021-09-23T09:00:00",
+          "endTime": "2021-09-23T17:00:00",
+          "pauseList": []
+        },
+        "workday_2_with_pause": {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa2",
+          "employeeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "date": "2021-09-23T00:00:00",
+          "startTime": "2021-09-23T09:00:00",
+          "endTime": "2021-09-23T17:00:00",
+          "pauseList": [
+            {
+              "id": "3fa85f64-5717-4562-b3fc-2c963f66afa2",
+              "index": 0,
+              "date": "2021-09-23T00:00:00",
+              "workDayId": "3fa85f64-5717-4562-b3fc-2c963f66afa2",
+              "startTime": "2021-09-23T12:00:00",
+              "endTime": "2021-09-23T13:00:00"
+            }
+          ]
+        }
+      },
+      "base": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+      }
+    }
+  },
+  "services": {
+    "service_1_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "service_1_incorrect_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "service_1": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "Test Service",
+      "cost": 4000,
+      "duration": 60,
+      "offset": 0,
+      "pauseAfterInMinutes": 0,
+      "currency": "HUF",
+      "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    "service_1_edit": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "Test Service_EDITED",
+      "cost": 5000,
+      "duration": 60,
+      "offset": 0,
+      "pauseAfterInMinutes": 0,
+      "currency": "HUF",
+      "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    "service_1_with_incorrect_business_id": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "Test Service",
+      "cost": 4000,
+      "duration": 60,
+      "offset": 0,
+      "pauseAfterInMinutes": 0,
+      "currency": "HUF",
+      "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa2"
+    },
+    "service_2_id": "3fa85f64-5717-4562-b3fc-2c963f66afa5",
+    "service_2_incorrect_id": "3fa85f64-5717-4562-b3fc-2c963f66afa9",
+    "service_2": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa5",
+      "name": "Test Service",
+      "cost": 4000,
+      "duration": 15,
+      "offset": 0,
+      "pauseAfterInMinutes": 0,
+      "currency": "HUF",
+      "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    "service_2_edit": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa5",
+      "name": "Test Service_EDITED",
+      "cost": 5000,
+      "duration": 15,
+      "offset": 0,
+      "pauseAfterInMinutes": 0,
+      "currency": "HUF",
+      "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    "service_2_with_incorrect_business_id": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa5",
+      "name": "Test Service_EDITED",
+      "cost": 5000,
+      "duration": 15,
+      "offset": 0,
+      "pauseAfterInMinutes": 0,
+      "currency": "HUF",
+      "businessId": "3fa85f64-5717-4562-b3fc-2c963f66afa2"
+    }
+  },
+  "customer": {
+    "firebaseUid": "id123id",
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "incorrectId": "3fa85f64-5717-4562-b3fc-2c963f66afa5",
+    "info_create": {
+      "customerId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "firstName": "First",
+      "lastName": "Last",
+      "email": "customer@test.com",
+      "phone": "706136413",
+      "phoneIso": "HU"
+    },
+    "info_edit": {
+      "customerId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "firstName": "FirstEDIT",
+      "lastName": "LastEDIT",
+      "email": "customerEDIT@test.com",
+      "phone": "706136413",
+      "phoneIso": "HU"
+    },
+    "base": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "firebaseUid": "id123id"
+    }
+  }
+}
